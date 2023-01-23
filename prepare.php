@@ -2,7 +2,7 @@
 
 include __DIR__ . '/vendor/autoload.php';
 
-$labels = [ 'B', 'b', 'K', 'k', 'N', 'n', 'P', 'p', 'Q', 'q', 'R', 'r', ];
+$pieces = [ 'B', 'b', 'K', 'k', 'N', 'n', 'P', 'p', 'Q', 'q', 'R', 'r', ];
 
 $count = 0;
 if (($handle = fopen("roboflow/training/_annotations.csv", "r")) !== false) {
@@ -11,7 +11,7 @@ if (($handle = fopen("roboflow/training/_annotations.csv", "r")) !== false) {
         if ($count == 1) {
             continue;
         }
-        if (in_array($row['3'], $labels)) {
+        if (in_array($row['3'], $pieces)) {
             $image = imagecreatefromjpeg("roboflow/training/{$row[0]}");
             $tile = imagecrop($image, [
                 'x' => $row['4'] - 1,
