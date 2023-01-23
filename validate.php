@@ -21,7 +21,7 @@ $samples = $labels = [];
 $pieces = [ 'B', 'b', 'K', 'k', 'N', 'n', 'P', 'p', 'Q', 'q', 'R', 'r', ];
 
 foreach ($pieces as $piece) {
-    foreach (glob("training/$piece/*.jpg") as $file) {
+    foreach (glob("testing/$piece/*.jpg") as $file) {
         $samples[] = [imagecreatefromjpeg($file)];
         $labels[] = $piece;
     }
