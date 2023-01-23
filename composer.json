@@ -5,10 +5,7 @@
     "homepage": "https://github.com/chesslablab/chess-scan",
     "license": "MIT",
     "keywords": [
-        "classification", "cross validation", "dataset", "data science", "dropout", "example project",
-        "feed forward", "image recognition", "image classification", "relu", "machine learning",
-        "ml", "mnist", "multilayer perceptron", "neural network", "php", "php ml", "relu", "rubix ml",
-        "rubixml", "tutorial"
+        "chess", "position", "scan", "vision", "piece", "fen"
     ],
     "authors": [
         {
