@@ -505,4 +505,5 @@ Below is an excerpt from an example report.
 ```
 
 ### License
-The MIT License.
+
+The GNU General Public License.
