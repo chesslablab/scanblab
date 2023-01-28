@@ -1,3 +1,16 @@
+/training/B/*.jpg
+/training/b/*.jpg
+/training/empty/*.jpg
+/training/K/*.jpg
+/training/k/*.jpg
+/training/N/*.jpg
+/training/n/*.jpg
+/training/P/*.jpg
+/training/p/*.jpg
+/training/Q/*.jpg
+/training/q/*.jpg
+/training/R/*.jpg
+/training/r/*.jpg
 /vendor
 composer.lock
 progress.csv
