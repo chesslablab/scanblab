@@ -1,3 +1,17 @@
+/testing/B/*.jpg
+/testing/b/*.jpg
+/testing/empty/*.jpg
+/testing/K/*.jpg
+/testing/k/*.jpg
+/testing/N/*.jpg
+/testing/n/*.jpg
+/testing/P/*.jpg
+/testing/p/*.jpg
+/testing/Q/*.jpg
+/testing/q/*.jpg
+/testing/R/*.jpg
+/testing/r/*.jpg
+
 /training/B/*.jpg
 /training/b/*.jpg
 /training/empty/*.jpg
@@ -11,6 +25,7 @@
 /training/q/*.jpg
 /training/R/*.jpg
 /training/r/*.jpg
+
 /vendor
 composer.lock
 progress.csv
