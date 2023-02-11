@@ -4,9 +4,9 @@ include __DIR__ . '/vendor/autoload.php';
 include './init.php';
 
 $max = (int) $argv[1];
-$action = $argv[2];
+$folder = $argv[2];
 $count = 0;
-if (($handle = fopen("roboflow/$action/_annotations.csv", "r")) !== false) {
+if (($handle = fopen("roboflow/$folder/_annotations.csv", "r")) !== false) {
     $coord = [];
     while (($row = fgetcsv($handle, 1000, ",")) !== false) {
         $count++;
@@ -14,7 +14,7 @@ if (($handle = fopen("roboflow/$action/_annotations.csv", "r")) !== false) {
             if ($count == 1) {
                 continue;
             }
-            $image = imagecreatefromjpeg("roboflow/$action/{$row[0]}");
+            $image = imagecreatefromjpeg("roboflow/$folder/{$row[0]}");
             if (in_array($row['3'], $pieces)) {
                 $coord[] = $row['4'].$row['5'].$row['6'].$row['7'];
                 $tile = imagecrop($image, [
@@ -24,7 +24,7 @@ if (($handle = fopen("roboflow/$action/_annotations.csv", "r")) !== false) {
                     'height' => 52,
                 ]);
                 if ($tile !== false) {
-                    imagejpeg($tile, "$action/{$row['3']}/".sprintf("%05d", $count).'.jpg');
+                    imagejpeg($tile, "$folder/{$row['3']}/".sprintf("%05d", $count).'.jpg');
                     imagedestroy($tile);
                 }
             } elseif ($row['3'] === 'board') {
@@ -37,7 +37,7 @@ if (($handle = fopen("roboflow/$action/_annotations.csv", "r")) !== false) {
                         'height' => 52,
                     ]);
                     if ($tile !== false) {
-                        imagejpeg($tile, "$action/1/".sprintf("%05d", $count).'.jpg');
+                        imagejpeg($tile, "$folder/1/".sprintf("%05d", $count).'.jpg');
                         imagedestroy($tile);
                     }
                 }
