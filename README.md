@@ -14,10 +14,10 @@ Remove all files in the `testing` and the `training` folders.
 $ php cleanup.php
 ```
 
-Create 20,000 samples for further training.
+Prepare 20,000 samples for further training.
 
 ```
-$ php prepare-training.php 20000
+$ php prepare.php 20000 training
 ```
 
 Train the neural network.
@@ -26,10 +26,10 @@ Train the neural network.
 $ php train.php
 ```
 
-Create 20,000 samples for further testing.
+Prepare 20,000 samples for further testing.
 
 ```
-$ php prepare-testing.php 20000
+$ php prepare.php 20000 testing
 ```
 
 Make predictions.
