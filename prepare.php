@@ -37,7 +37,7 @@ if (($handle = fopen("roboflow/$action/_annotations.csv", "r")) !== false) {
                         'height' => 52,
                     ]);
                     if ($tile !== false) {
-                        imagejpeg($tile, "$action/empty/".sprintf("%05d", $count).'.jpg');
+                        imagejpeg($tile, "$action/1/".sprintf("%05d", $count).'.jpg');
                         imagedestroy($tile);
                     }
                 }

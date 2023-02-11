@@ -26,7 +26,7 @@ $logger->info('Loading data into memory');
 
 $samples = $labels = [];
 
-$folders = [ 'B', 'b', 'K', 'k', 'N', 'n', 'P', 'p', 'Q', 'q', 'R', 'r', 'empty', ];
+$folders = [ '1', 'B', 'b', 'K', 'k', 'N', 'n', 'P', 'p', 'Q', 'q', 'R', 'r', ];
 
 foreach ($folders as $folder) {
     foreach (glob("training/$folder/*.jpg") as $file) {
