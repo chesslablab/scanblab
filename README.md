@@ -11,31 +11,31 @@ For further information, please visit:
 Remove all files in the `testing` and the `training` folders.
 
 ```
-$ php cleanup.php
+php cleanup.php
 ```
 
 Prepare 20,000 samples for further training.
 
 ```
-$ php prepare.php 20000 training
+php prepare.php 20000 training
 ```
 
 Train the neural network.
 
 ```
-$ php train.php
+php train.php
 ```
 
 Prepare 20,000 samples for further testing.
 
 ```
-$ php prepare.php 20000 testing
+php prepare.php 20000 testing
 ```
 
 Make predictions.
 
 ```
-$ php validate.php
+php validate.php
 ```
 
 Below is an excerpt from an example report.
