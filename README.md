@@ -555,4 +555,4 @@ Below is an excerpt from an example report.
 
 ### License
 
-The GNU General Public License.
+This product is licensed under the [GNU General Public License](https://github.com/chesslablab/chess-scan/blob/master/LICENSE).
