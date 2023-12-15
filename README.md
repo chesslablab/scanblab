@@ -556,3 +556,5 @@ Below is an excerpt from an example report.
 ### License
 
 This product is licensed under the [GNU General Public License](https://github.com/chesslablab/chess-scan/blob/master/LICENSE).
+
+Happy learning and coding! Thank you, and keep it up!
