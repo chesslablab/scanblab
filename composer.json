@@ -1,7 +1,7 @@
 {
     "name": "chesslablab/chess-scan",
     "type": "project",
-    "description": "FEN Position Recognizer.",
+    "description": "Chess Piece Image Recognizer.",
     "homepage": "https://github.com/chesslablab/chess-scan",
     "license": "MIT",
     "keywords": [
@@ -9,14 +9,14 @@
     ],
     "authors": [
         {
-            "name": "Jordi Bassaganas",
+            "name": "Jordi Bassagana",
             "homepage": "https://github.com/programarivm"
         }
     ],
     "require": {
         "php": ">=7.4",
         "ext-gd": "*",
-        "rubix/ml": "^2.0"
+        "rubix/ml": "^2.4"
     },
     "scripts": {
         "train": "@php train.php",
