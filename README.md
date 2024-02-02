@@ -8,39 +8,51 @@ For further information, please visit:
 
 ---
 
-Remove all files in the `testing` and the `training` folders.
+Clone the `chesslablab/chess-scan` repo into your projects folder:
 
+```text
+git clone git@github.com:chesslablab/chess-scan.git
 ```
+
+Then `cd` the `chess-scan` directory and install the Composer dependencies:
+
+```text
+composer install
+```
+
+Make sure to remove all files in the `testing` and the `training` folders.
+
+```text
 php cleanup.php
 ```
 
-Prepare 20,000 samples for further training.
+Prepare 50,000 samples for further training.
 
-```
-php prepare.php 20000 training
+```text
+php prepare.php 50000 training
 ```
 
 Train the neural network.
 
-```
+```text
 php train.php
 ```
 
-Prepare 20,000 samples for further testing.
+Prepare 50,000 samples for further testing.
 
-```
-php prepare.php 20000 testing
+```text
+php prepare.php 50000 testing
 ```
 
 Make predictions.
 
-```
+```text
 php validate.php
 ```
 
 Below is an excerpt from an example report.
 
-```
+```text
 {
     "breakdown": {
         "overall": {
@@ -555,4 +567,4 @@ Below is an excerpt from an example report.
 
 ### License
 
-This product is licensed under the [GNU General Public License](https://github.com/chesslablab/chess-scan/blob/master/LICENSE).
+The MIT license.
