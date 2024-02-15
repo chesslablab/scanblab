@@ -1,4 +1,6 @@
-# Chess Piece Image Recognizer
+# ScanBlab
+
+ScanBlab is a chess piece image recognizer.
 
 In this repository, a chess piece image recognizer is created using a multilayer neural network trained on the [2D Chessboard and Chess Pieces](https://universe.roboflow.com/chess-project/2d-chessboard-and-chess-pieces) dataset.
 
