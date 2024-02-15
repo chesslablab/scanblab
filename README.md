@@ -8,13 +8,13 @@ For further information, please visit:
 
 ---
 
-Clone the `chesslablab/chess-scan` repo into your projects folder:
+Clone the `chesslablab/scanblab` repo into your projects folder:
 
 ```text
-git clone git@github.com:chesslablab/chess-scan.git
+git clone git@github.com:chesslablab/scanblab.git
 ```
 
-Then `cd` the `chess-scan` directory and install the Composer dependencies:
+Then `cd` the `scanblab` directory and install the Composer dependencies:
 
 ```text
 composer install
