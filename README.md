@@ -567,6 +567,16 @@ Below is an excerpt from an example report.
 }
 ```
 
+### Contributions
+
+We encourage you to contribute to the ScanBlab repository! Please follow the [Contributing Guidelines](https://github.com/chesslablab/website/blob/master/CONTRIBUTING.md).
+
+<a href="https://github.com/chesslablab/website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=chesslablab/scanblab" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks)
+
 ### License
 
 The MIT license.
