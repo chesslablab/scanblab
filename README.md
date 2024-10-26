@@ -569,10 +569,10 @@ Below is an excerpt from an example report.
 
 ### Contributions
 
-We encourage you to contribute to the Perception repository! Please follow the [Contributing Guidelines](https://github.com/chesslablab/website/blob/master/CONTRIBUTING.md).
+We encourage you to contribute to the Perception repository! Please follow the [Contributing Guidelines](https://github.com/chesslablab/php-chess/blob/main/CONTRIBUTING.md).
 
-<a href="https://github.com/chesslablab/website/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=chesslablab/scanblab" />
+<a href="https://github.com/chesslablab/perception/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=chesslablab/perception" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks)
