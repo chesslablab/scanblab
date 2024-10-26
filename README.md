@@ -2,6 +2,8 @@
 
 Chess piece image recognizer.
 
+This is the building block that allows to recognize the piece placement in FEN format of a chessboard image as it is implemented in [Chess\Media\FEN\JpgToPiecePlacement](https://github.com/chesslablab/php-chess/blob/main/tests/unit/Media/FEN/JpgToPiecePlacementTest.php). 
+
 In this repository, a chess piece image recognizer is created using a multilayer neural network trained on the [2D Chessboard and Chess Pieces](https://universe.roboflow.com/chess-project/2d-chessboard-and-chess-pieces) dataset.
 
 For further information, please visit:
