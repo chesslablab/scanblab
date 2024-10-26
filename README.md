@@ -1,6 +1,6 @@
-# ScanBlab
+# Perception
 
-ScanBlab is a chess piece image recognizer.
+Chess piece image recognizer.
 
 In this repository, a chess piece image recognizer is created using a multilayer neural network trained on the [2D Chessboard and Chess Pieces](https://universe.roboflow.com/chess-project/2d-chessboard-and-chess-pieces) dataset.
 
@@ -569,7 +569,7 @@ Below is an excerpt from an example report.
 
 ### Contributions
 
-We encourage you to contribute to the ScanBlab repository! Please follow the [Contributing Guidelines](https://github.com/chesslablab/website/blob/master/CONTRIBUTING.md).
+We encourage you to contribute to the Perception repository! Please follow the [Contributing Guidelines](https://github.com/chesslablab/website/blob/master/CONTRIBUTING.md).
 
 <a href="https://github.com/chesslablab/website/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=chesslablab/scanblab" />
