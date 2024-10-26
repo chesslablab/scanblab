@@ -8,7 +8,7 @@ For further information, please visit:
 
 - [MNIST Handwritten Digit Recognizer](https://github.com/RubixML/MNIST)
 
-Perception is the building block that allows to recognize the piece placement in FEN format of a chessboard image as it is implemented in the [Chess\Media\FEN](https://github.com/chesslablab/php-chess/tree/main/src/Media/FEN) namespace.
+Perception is the building block that allows to recognize the piece placement in FEN format of a chessboard image as it is implemented in the [Chess\Media\FEN](https://github.com/chesslablab/php-chess/tree/main/src/Media/FEN) namespace of the PHP Chess library.
 
 Example:
 
