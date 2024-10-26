@@ -1,8 +1,8 @@
 {
-    "name": "chesslablab/scanblab",
+    "name": "chesslablab/perception",
     "type": "project",
     "description": "Chess Piece Image Recognizer.",
-    "homepage": "https://github.com/chesslablab/scanblab",
+    "homepage": "https://github.com/chesslablab/perception",
     "license": "MIT",
     "keywords": [
         "chess", "position", "scan", "vision", "piece", "fen"
